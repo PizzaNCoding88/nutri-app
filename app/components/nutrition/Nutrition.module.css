@@ -1,5 +1,13 @@
+.input {
+  @apply bg-transparent border-white border-2 rounded-sm pl-2;
+}
+
+.searchButton {
+  @apply bg-white text-black ml-2 py-[3px] px-2 rounded-md;
+}
+
 .section {
-  @apply flex justify-center items-center h-screen;
+  @apply flex flex-col gap-8 justify-center items-center h-screen;
 }
 
 .container {

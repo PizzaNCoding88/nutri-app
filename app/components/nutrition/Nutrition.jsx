@@ -7,6 +7,11 @@ import ThinDivider from "../labelDividers/ThinDivider";
 const Nutrition = () => {
   return (
     <section className={Nutri.section}>
+      <form>
+        <input className={Nutri.input} placeholder="Feed me..."></input>
+        <button className={Nutri.searchButton}>Search</button>
+      </form>
+
       <div className={Nutri.container}>
         <h1>Nutrition Facts</h1>
         <div className={Nutri.servingSize}>
