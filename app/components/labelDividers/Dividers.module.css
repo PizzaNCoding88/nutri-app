@@ -1,0 +1,11 @@
+.largeDivider {
+  @apply bg-white w-full h-4;
+}
+
+.mediumDivider {
+  @apply bg-white w-full h-1;
+}
+
+.thinDivider {
+  @apply bg-white w-full h-[1px];
+}

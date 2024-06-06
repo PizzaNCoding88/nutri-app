@@ -1,0 +1,27 @@
+.container {
+  @apply w-4/5 mx-auto border-2 border-white rounded-md p-4;
+}
+
+.container h1 {
+  @apply font-bold;
+}
+
+.caloriesLine,
+.servingSize,
+.macrosMajor,
+.macrosMinor,
+.micros {
+  @apply flex justify-between items-center;
+}
+
+.calories {
+  @apply text-2xl font-bold;
+}
+
+.macrosMajor :nth-child(1) {
+  @apply font-extrabold;
+}
+
+.macrosMinor {
+  @apply pl-6 font-thin text-xs;
+}
