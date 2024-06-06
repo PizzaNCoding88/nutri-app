@@ -6,7 +6,7 @@ import ThinDivider from "../labelDividers/ThinDivider";
 
 const Nutrition = () => {
   return (
-    <section>
+    <section className={Nutri.section}>
       <div className={Nutri.container}>
         <h1>Nutrition Facts</h1>
         <div className={Nutri.servingSize}>

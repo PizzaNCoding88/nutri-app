@@ -1,3 +1,7 @@
+.section {
+  @apply flex justify-center items-center h-screen;
+}
+
 .container {
   @apply w-4/5 mx-auto border-2 border-white rounded-md p-4;
 }
